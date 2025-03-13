@@ -1,0 +1,74 @@
+<DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>World Cup Tournament</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+        h1 {
+            color: #0066cc;
+            margin-top: 30px;
+        }
+        table {
+            margin: 30px auto;
+            border-collapse: collapse;
+            width: 80%;
+            max-width: 800px;
+        }
+        th {
+            background-color: #0066cc;
+            color: white;
+            padding: 10px;
+            font-weight: bold;
+            border: 1px solid #dddddd;
+        }
+        td {
+            padding: 8px;
+            border: 1px solid #dddddd;
+            text-align: left;
+        }
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+<body>
+    <h1>FIFA WORLD CUP PAIRINGS</h1>
+    
+    <table>
+        <thead>
+            <tr>
+                <th>GROUP A</th>
+                <th>GROUP B</th>
+                <th>GROUP C</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Ghana</td>
+                <td>Brazil</td>
+                <td>Argentina</td>
+            </tr>
+            <tr>
+                <td>Portugal</td>
+                <td>England</td>
+                <td>France</td>
+            </tr>
+            <tr>
+                <td>Canada</td>
+                <td>Switzerland</td>
+                <td>USA</td>
+            </tr>
+            <tr>
+                <td>Uruguay</td>
+                <td>Senegal</td>
+                <td>Cameroon</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
